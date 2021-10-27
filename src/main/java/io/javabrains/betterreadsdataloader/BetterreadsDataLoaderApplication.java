@@ -149,9 +149,8 @@ public class BetterreadsDataLoaderApplication {
     @PostConstruct
 	public void start() {
 		//initAuthors();
-		initWorks();
+		//initWorks();
 	}
-
 
 	@Bean
 	public CqlSessionBuilderCustomizer sessionBuilderCustomizer(DataStaxAstraProperties astraProperties) {
